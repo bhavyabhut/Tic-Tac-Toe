@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.game{
+	padding-top:2rem; 
+	width: 100vw;
+	height:50%;
+	display: flex;
+	justify-content: center;
+}
+.optional{
+	display: flex;
+	width: 450px;
+	height: 450px;
+}
+.b{
+	cursor: move;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 130px;
+	font-family: 'Arial';
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+}
+
+.visible{
+	display: inline;
+	opacity: 0.4;
+}
+.result{
+	display: none;
+}
+h1{
+	text-align: center;
+	padding-top: 2rem; 
+	color: green;
+}
+button{
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	background-color: #fc7e2f;
+	color: #f40552;
+	margin-top: 2rem;
+	margin-left: 47%;
+}
+.modal{
+	display: none;
+	position: fixed;
+	overflow: auto;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	top: 28%;
+	left: 35%;
+    border: 5px solid hsl(0, 0%, 40%);
+    padding: 5px;
+   background: hsl(0, 0%, 20%);
+    outline: 5px solid hsl(0, 0%, 60%);
+    box-shadow:
+      0 0 0 10px hsl(0, 0%, 80%),
+      0 0 0 15px hsl(0, 0%, 90%);
+}
+.pad{
+	padding: 1rem;
+}
+.show{
+	display: block;
+}
+#sec{
+	color: red;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+.msg{
+	font-weight: bold;
+	color: #f50057;
+}.over{
+	color: #ff5722;
+}
