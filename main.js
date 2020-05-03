@@ -127,7 +127,7 @@ $(function(){
 		if(turn==='O')
 			$('.msg').text('Congrats X wins');
 		else
-			$('.msg').text('Congrats X wins');		
+			$('.msg').text('Congrats O wins');		
 		var counter = 3;
 		var interval = setInterval(function() {
     		counter--;
