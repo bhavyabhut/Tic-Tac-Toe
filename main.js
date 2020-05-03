@@ -128,7 +128,7 @@ $(function(){
 			$('.msg').text('Congrats X wins');
 		else
 			$('.msg').text('Congrats X wins');		
-		var counter = 5;
+		var counter = 3;
 		var interval = setInterval(function() {
     		counter--;
     		$("#sec").text(counter);
@@ -137,6 +137,6 @@ $(function(){
    			}
 		}, 1000);
 
-		setTimeout(reset,6000)
+		setTimeout(reset,4000)
 	}
 })
